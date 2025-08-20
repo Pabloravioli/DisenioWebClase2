@@ -1,0 +1,40 @@
+body{
+    background-color: #1C1C1C;
+}
+a{
+    color: #FFD700;
+}
+h1,h2,h3{
+    color:#7FFF00;
+}
+p{
+    font-size: 30px;
+    color: gray;
+
+}
+header{
+
+    background-color: #8B0000;
+    
+}
+*{
+    padding: 5px;
+    margin: 5px;
+}
+ul{
+    list-style: none;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    width: 200px;
+    height: 30px;
+    background-color:black ;
+}
+footer{
+    color:
+}
