@@ -7,14 +7,70 @@ a{
 h1,h2,h3{
     color:#7FFF00;
 }
+h2{
+    text-align: center;
+}
 p{
-    font-size: 30px;
+    font-size: 20px;
     color: gray;
+    
 
 }
+
+
 header{
 
     background-color: #8B0000;
     height: 200px;
-    width: 1000px;
+    width: 700px;
+    border: solid blue 2px;
+    margin: auto;
+    text-align: center;
+}
+.imagenProtagonistas{
+    border: solid blue 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.imagenBilly{
+    margin: 30px;
+}
+.textoConImagen{
+    display: flex;
+}
+.titulobilly{
+    border: solid red 2px;
+    align-items: center;
+    margin: 30px;
+    height: 20px;
+}
+.textobilly{
+    border: solid red 2px;
+    margin: 30px;
+
+}
+ul{
+    list-style: none;
+}
+nav{
+    text-align: center;
+    border: solid blue 2px;
+}
+nav ul{
+    display: flex;
+    border: solid yellow 2px;
+    gap: 20px;
+    align-items: center;
+}
+nav ul li{
+    width: 200px;
+    height: 30px;
+    background-color:black ;
+}
+footer p{
+    color:#FFD700;
+    border: solid red 2px;
 }
