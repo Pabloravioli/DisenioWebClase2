@@ -18,6 +18,7 @@ p{
 }
 
 
+
 header{
 
     background-color: #8B0000;
@@ -26,6 +27,7 @@ header{
     border: solid blue 2px;
     margin: auto;
     text-align: center;
+    border-radius: 10px;
 }
 .imagenProtagonistas{
     border: solid blue 2px;
@@ -64,12 +66,24 @@ nav ul{
     border: solid yellow 2px;
     gap: 20px;
     align-items: center;
+    
 }
 nav ul li{
     width: 200px;
     height: 30px;
-    background-color:black ;
+    background-color:#1C1C1C ;
+    border: solid red 2px;
+    border-radius: 30px;
+
 }
+nav ul li:hover{
+
+    background-color: #7FFF00;
+    
+
+}
+
+
 footer p{
     color:#FFD700;
     border: solid red 2px;

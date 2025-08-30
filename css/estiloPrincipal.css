@@ -3,21 +3,31 @@ body{
 }
 a{
     color: #FFD700;
-}
-h1,h2,h3{
-    color:#7FFF00;
-    border: solid red 2px;
+
+
 }
 h2{
     text-align: center;
+    background-color: #8B0000;
+    border-radius: 10px;
 }
+h1,h2,h3{
+    color:#7FFF00;
+
+}
+h1{
+    text-align: center;
+
+
+}
+
 .textoIntroduccion{
     font-size: 20px;
     color: gray;
-    border: solid red 2px;
     text-align: none;
     margin: 30px;
     width: 600px;
+    
     
 
 
@@ -27,45 +37,70 @@ header{
 
     background-color: #8B0000;
     height: 200px;
-    width: 700px;
-    border: solid blue 2px;
     margin: auto;
     text-align: center;
+    border-radius: 10px;
+    
 }
+
+
 .ola{
 
     display: flex;
-    align-items: none;
+    align-items: center;
+    background-color: #8B0000;
+    border-radius:10px;
+
 }
 
 ul{
     list-style: none;
-    border: solid red 2px;
-}
-nav{
-    text-align: center;
-    border: solid blue 2px;
+    display: flex;
+    justify-content: center;
 
 }
+
 nav ul{
     display: flex;
-    border: solid yellow 2px;
+    justify-content: center;
     gap: 20px;
-    align-items: center;
+    
+
 }
 nav ul li{
+    display: flex;
+    justify-content: center;
     width: 200px;
     height: 30px;
-    background-color:black ;
+    background-color:#1C1C1C ;
     border: solid red 2px;
+    border-radius: 30px;
+    
+
+
     
     
 }
-img{
-    margin: 30px;
+nav ul li a{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+nav ul li:hover{
+
+    background-color: #7FFF00;
+    
+
+}
+nav ul:hover{
+
+    color: #1C1C1C;
+}
+.imagen{
+    margin: auto;
 }
 
 footer p{
     color:#FFD700;
-    border: solid red 2px;
 }
