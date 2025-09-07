@@ -36,10 +36,11 @@ h1{
 header{
 
     background-color: #8B0000;
-    height: 200px;
+    height: 100px;
     margin: auto;
     text-align: center;
     border-radius: 10px;
+    
     
 }
 
@@ -47,11 +48,13 @@ header{
 .ola{
 
     display: flex;
-    align-items: center;
+    
     background-color: #8B0000;
     border-radius:10px;
+    flex-wrap: wrap;
 
 }
+
 
 ul{
     list-style: none;
@@ -64,6 +67,9 @@ nav ul{
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 0;
+
+    
     
 
 }
@@ -73,7 +79,6 @@ nav ul li{
     width: 200px;
     height: 30px;
     background-color:#1C1C1C ;
-    border: solid red 2px;
     border-radius: 30px;
     
 
@@ -93,7 +98,13 @@ nav ul li:hover{
     
 
 }
+
 nav ul:hover{
+
+    color: #1C1C1C;
+
+}
+nav ul li a:hover{
 
     color: #1C1C1C;
 }
@@ -101,6 +112,45 @@ nav ul:hover{
     margin: auto;
 }
 
-footer p{
+footer {
     color:#FFD700;
+    position: relative;
+    bottom: 0;
 }
+
+footer p{
+
+    font-size: 15px;
+}
+
+@media screen and (max-width: 550px){
+
+    nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    background-color: #8B0000;
+    padding-bottom: 10px;
+    align-items: center;
+    
+    
+}
+
+    main{
+        margin-top: 150px;
+    }
+
+
+
+
+   
+
+}
+/* 1. Arreglar el footer 
+   2.Arreglar media Screen con el nav
+   3. Terminar la pagina personajes
+   
+
+
+*/

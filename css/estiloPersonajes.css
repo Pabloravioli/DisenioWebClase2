@@ -9,6 +9,14 @@ h1,h2,h3{
 }
 h2{
     text-align: center;
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+
+
 }
 p{
     font-size: 20px;
@@ -17,20 +25,61 @@ p{
 
 }
 
-
-
 header{
 
     background-color: #8B0000;
-    height: 200px;
-    width: 700px;
-    border: solid blue 2px;
+    height: 100px;
     margin: auto;
     text-align: center;
     border-radius: 10px;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    
+
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    background-color:#1C1C1C ;
+    border-radius: 30px;
+    
+
+
+    
+    
+}
+nav ul li a{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+nav ul li:hover{
+
+    background-color: #7FFF00;
+    
+
+}
+nav ul:hover{
+
+    color: #1C1C1C;
+}
 .imagenProtagonistas{
-    border: solid blue 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,47 +93,31 @@ header{
     display: flex;
 }
 .titulobilly{
-    border: solid red 2px;
     align-items: center;
     margin: 30px;
     height: 20px;
 }
 .textobilly{
-    border: solid red 2px;
     margin: 30px;
-
-}
-ul{
-    list-style: none;
-}
-nav{
-    text-align: center;
-    border: solid blue 2px;
-}
-nav ul{
-    display: flex;
-    border: solid yellow 2px;
-    gap: 20px;
-    align-items: center;
-    
-}
-nav ul li{
-    width: 200px;
-    height: 30px;
-    background-color:#1C1C1C ;
-    border: solid red 2px;
-    border-radius: 30px;
-
-}
-nav ul li:hover{
-
-    background-color: #7FFF00;
-    
 
 }
 
 
 footer p{
     color:#FFD700;
-    border: solid red 2px;
+    font-size: 15px;
 }
+
+@media screen and (max-width: 550px){
+
+    nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    
+
+}
+
+}
+    
