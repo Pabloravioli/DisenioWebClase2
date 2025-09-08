@@ -11,10 +11,15 @@ h2{
     background-color: #8B0000;
     border-radius: 10px;
 }
-h1,h2,h3{
+h1,h2,h3,a{
     color:#7FFF00;
-
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
+
 h1{
     text-align: center;
 
@@ -87,7 +92,7 @@ nav ul li{
     
 }
 nav ul li a{
-
+    text-decoration: none;
     display: flex;
     text-align: center;
     justify-content: center;

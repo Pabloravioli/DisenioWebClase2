@@ -4,9 +4,13 @@ body{
 a{
     color: #FFD700;
 }
-h1,h2,h3{
+h1,h2,h3,a{
     color:#7FFF00;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
+
 h2{
     text-align: center;
     background-color: #8B0000;
@@ -22,8 +26,12 @@ p{
     font-size: 20px;
     color: gray;
     
+    
 
 }
+
+
+
 
 header{
 
@@ -33,6 +41,7 @@ header{
     text-align: center;
     border-radius: 10px;
 }
+
 
 ul{
     list-style: none;
@@ -64,7 +73,7 @@ nav ul li{
     
 }
 nav ul li a{
-
+    text-decoration: none;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -86,11 +95,16 @@ nav ul:hover{
     margin: auto;
     
 }
+
 .imagenBilly{
     margin: 30px;
 }
 .textoConImagen{
     display: flex;
+    background-color: #8B0000;
+    border-radius: 10px;
+    
+    
 }
 .titulobilly{
     align-items: center;
@@ -99,7 +113,14 @@ nav ul:hover{
 }
 .textobilly{
     margin: 30px;
+    text-align: justify;
 
+    
+
+}
+nav ul li a:hover{
+
+    color: #1C1C1C;
 }
 
 
@@ -114,10 +135,29 @@ footer p{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0;
+    margin: auto;
+    background-color: #8B0000;
+    padding-bottom: 10px;
+    align-items: center;
     
-
+    
 }
+
+    main{
+    margin-top: 150px;
+    }
+
+    .textoConImagen{
+    display: flex;
+    flex-direction: column;
+    }
+    .imagenProtagonistas{
+        width: 450px;
+        
+    }
+    .imagenBilly{
+        width: 400px;
+    }
 
 }
     
