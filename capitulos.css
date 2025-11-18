@@ -58,3 +58,54 @@ header{
     flex-direction: column;
 }
 }
+.form-section {
+  width: 100%;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #1C1C1C;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background: #FFD700;
+  color: #000;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e3c306;
+}
+
+.error {
+  color: #FF4C4C;
+  font-size: 14px;
+  height: 14px;
+}
+
+.success {
+  color: #7FFF00;
+  text-align: center;
+  margin-top: 10px;
+}
